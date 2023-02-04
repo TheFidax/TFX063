@@ -16,7 +16,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 ## Indice
 * [Immagini Dimostrative](#immagini-dimostrative)
 * [Video Presentazione del Progetto](#video-presentazione-del-progetto)
-* [Manuale Scheda](#manuale-scheda)
+* [Manuali Scheda](#manuali-scheda)
 * [FirmWare](#firmware)
 * [HardWare](#hardware)
 * [Caratteristiche della Scheda](#caratteristiche-della-scheda)
