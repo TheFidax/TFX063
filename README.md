@@ -43,20 +43,6 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 * [FirmWare](#firmware)
 * [HardWare](#hardware)
 * [Caratteristiche della Scheda](#caratteristiche-della-scheda)
-  - [Ponte di Diodi Schottky](#ponte-di-diodi-schottky)
-  - [Chip Step Down Buck MCP16331](#chip-step-down-buck-mcp16331)
-  - [Condensatori PowerPack](#condensatori-powerpack)
-  - [Microchip ATmega128A](#microchip-atmega128a)
-  - [Dcc Reader e Sistema ACK](#Dcc-reader-e-sistema-ack)
-  - [Sistema BiDirezionale RCN217](#sistema-bidirezionale-RCN217)
-  - [Porta di Programmazione ISP](#porta-di-programmazione-isp)
-  - [Cuccette con Luci Diurne e Notturne *indipendenti*](#illuminazione-cuccette-con-luci-diurne-e-notturne)
-  - [Ritirare](#illuminazione-ritirate)
-  - [Luci di Coda Rosse](#luci-di-coda-rosse)
-  - [Altoparlante](#altoparlante)
-  - [Decoder PluX](#interfaccia-plux)
-  - [Porta SUSI](#porta-susi)
-* [Assemblaggio](#Assemblaggio)
 * [Contattami](#Contattami)
 
 ------------
@@ -93,20 +79,19 @@ I **File Gerber**, il **BOM** e il file **Pick and Place** sono nel file **.Zip*
 
 ## Caratteristiche della Scheda
 Di seguito sono riportate le caratteristiche della scheda, poi spiegate in dettaglio nei vari paragrafi dedicati.
-- [Schottky Diodes](#ponte-di-diodi-schottky) to provide CC power from Tracks
-- [MCP16331](#chip-step-down-buck-mcp16331) to power Board at 5v
-- [PowerPack](#condensatori-powerpack) system by 4x 100uF Tantalum capacitors with slow charge system and [Overvoltage Isolation system](#protezione-sovratensioni-opzionale).
-- Board can be operate with these systems: CC Analog (from 7v), PWM CC Analog, AC Analog, Digital (DCC & Motorola)
-- [AtMega128A](#microchip-atmega128a) to Digital Operation
-- [Optoisolator to read Digital signal](#lettura-segnale-digitale)
-- [ACK System](#sistema-ack)
-- [JST SH6 connector](#porta-di-programmazione-isp) to program AtMega with ISP system and to provide I2C Bus from external target
-- [All Cuccettes illuminated](#illuminazione-cuccette-con-luci-diurne-e-notturne) independently (with Day and Night lights)
-- [Bathrooms illuminated](#illuminazione-ritirate) independently (Only on 1995R Models)
-- Pads for [tail red lights](#luci-di-coda-rosse)
-- Rectangular [30mm Speaker](#altoparlante) for PluX Decoder
-- [PluX Interface](#interfaccia-plux) (with Sound and SUSI BUS)
-- [SUSI Port](#porta-susi) for External Module
+[Ponte di Diodi Schottky](#ponte-di-diodi-schottky)
+  - [Chip Step Down Buck MCP16331](#chip-step-down-buck-mcp16331)
+  - [Condensatori PowerPack](#condensatori-powerpack)
+  - [Microchip ATmega128A](#microchip-atmega128a)
+  - [Dcc Reader e Sistema ACK](#Dcc-reader-e-sistema-ack)
+  - [Sistema BiDirezionale RCN217](#sistema-bidirezionale-RCN217)
+  - [Porta di Programmazione ISP](#porta-di-programmazione-isp)
+  - [Cuccette con Luci Diurne e Notturne *indipendenti*](#illuminazione-cuccette-con-luci-diurne-e-notturne)
+  - [Ritirare](#illuminazione-ritirate)
+  - [Luci di Coda Rosse](#luci-di-coda-rosse)
+  - [Altoparlante](#altoparlante)
+  - [Decoder PluX](#interfaccia-plux)
+  - [Porta SUSI](#porta-susi)
 - MINIMUM CLEARANCE: 6mil
 
 ------------
@@ -171,7 +156,7 @@ La scheda **e' compatibile con il DCC e con il Motorola**, programmazione **solo
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/rcn217.jpg" width="1280">
 
 Dalla revisione HardWare 3.00 e' disponibile il sistema di comunicazione bidirezionale [Rcn217](http://normen.railcommunity.de/RCN-217.pdf), utile per la lettura delle CVs in modalita' POM e per conoscere la posizione del rotabile sul tracciato.</br>
-**NOTA**: E' necessario un impianto che supporti il protocollo RCN217.</br>
+**NOTA**: E' necessario una centrale digitale che supporti il protocollo RCN217.</br>
 
 ------------
 
@@ -251,15 +236,5 @@ Per garantire la massima personalizzazione, e' presente anche **una porta SUSI**
 
 ------------
 
-## Assemblaggio
-Il file *BoM* comprende la lista di tutti i pezzi necessario all'assemblaggio in proprio della scheda.</br>
-Per esperienza personale consiglio di cominciare l'assemblaggio dal Chip **LTC4367** in quanto il più ostico da saldare a mano; nel caso in cui questo chip *non fosse richiesto* allora è consigliabile cominciare dal *Microcontrollore ATmega128A*.
-
-I successivi pezzi possono essere saldati seguendo un ordine a scelta dell'utente.
-
-*Nel caso in cui si volesse la scheda **gia' assemblata** e' possibile contattarmi all'indirizzo mail sottoriportato oppure seguire eventuali aste di pezzi in esubero sul mio profilo **Ebay***: https://www.ebay.it/sch/the_fidax/m.html
-
-------------
-
 ## Contattami
-Per curiosita' o ulteriori informazioni puo contattarmi al seguente indirizzo email:  	TheFidaxContactsAtgmail.com
+Per curiosita' o ulteriori informazioni puoi contattarmi al seguente indirizzo email:  	TheFidaxContacts@gmail.com
