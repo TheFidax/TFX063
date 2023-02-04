@@ -59,7 +59,7 @@ I manuali della scheda sono [disponibile qui](https://github.com/TheFidax/TFX063
 ------------
 
 ## FirmWare
-Il Firmware dedicato e' presente sotto la cartella [FirmWare](https://github.com/TheFidax/TFX063/tree/main/FirmWare), per poterlo caricare è necessario un programmatore AVR ISP con adattatore all'interfaccia JST SH6'.</br>
+Il Firmware dedicato e' presente sotto la cartella [FirmWare](https://github.com/TheFidax/TFX063/tree/main/FirmWare), per poterlo caricare è necessario un programmatore AVR ISP con adattatore all'interfaccia JST SH6.</br>
 Le cifre finali del file .HEX identificano la versione del FirmWare.
 
 *NOTA*: Nella cartella e' presente una sotto cartella contenente dei FirmWare di Debug.</br>
