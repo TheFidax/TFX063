@@ -160,19 +160,18 @@ Il microcontrollore **non può** essere dotato di *bootloader*: non e' presente 
 ------------
 
 ### Dcc Reader e Sistema ACK
-<img src="https://github.com/TheFidax/TFX063/blob/main/Images/dcc.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX063/blob/main/Images/dcc_ack.jpg" width="1280">
 
-Il segnale digitale e' letto mediante [Optoisolatore TLP2168](https://toshiba.semicon-storage.com/eu/semiconductor/product/optoelectronics/detail.TLP2168.html) che fornisce l'[isolamento galvanico](https://it.wikipedia.org/wiki/Isolamento_elettrico) del microcontrollore dalla tensione delle rotaie.</br> 
-L'optoisolatore e' protetto dall'inversione di corrente mediante Diodo e da un eccessiva corrente mediante resistore.</br>
-Tale chip e' bicanale e permette, inoltre, il rilevamento della presenza di un Decoder Esterno analizzando la linea U+ fornita da esso.</br>
-Questo sistema **e' compatibile con il DCC e con il Motorola**.
+Il segnale digitale e' letto mediante resistore per la protezione del pin di input, l'impulso ACK, necessario per il binario di programmazione, viene fornito mediante resistore da 120Ω.</br>
+La scheda **e' compatibile con il DCC e con il Motorola**, programmazione **solo** sotto DCC.
 
 ------------
 
 ### Sistema Bidirezionale RCN217
-<img src="https://github.com/TheFidax/TFX063/blob/main/Images/ack.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX063/blob/main/Images/rcn217.jpg" width="1280">
 
-La scheda e' dotata di sistema per fornire l'ACK nella **programmazione DCC mediante binario di programmazione**.
+Dalla revisione HardWare 3.00 e' disponibile il sistema di comunicazione bidirezionale [Rcn217](http://normen.railcommunity.de/RCN-217.pdf), utile per la lettura delle CVs in modalita' POM e per conoscere la posizione del rotabile sul tracciato.</br>
+**NOTA**: E' necessario un impianto che supporti il protocollo RCN217.</br>
 
 ------------
 
