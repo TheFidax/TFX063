@@ -53,8 +53,8 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 
 ------------
 
-## Manuale Scheda
-Il manuale della scheda è [disponibile qui](https://github.com/TheFidax/TFX063/blob/main/TFX063_MANUALE.odt).
+## Manuali Scheda
+I manuali della scheda sono [disponibile qui](https://github.com/TheFidax/TFX063/tree/main/Manuali).
 
 ------------
 
