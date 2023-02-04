@@ -4,7 +4,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 - Corridoio 
 - *Luci Diurne Cuccette* (9 Cuccette Oppure 8 più compartimento Cuccettista)
 - **Luci Notturne Blu Cuccette** (9 Cuccette Oppure 8 più compartimento Cuccettista)
-- Ritirate (sulle vetture 1995R)
+- Ritirate (*solo* vetture 1995R)
 - Predisposizione per le *Luci di Coda Rosse* 
 
 **Codice Identificativo Progetto: TFX063**
@@ -46,10 +46,9 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
   - [Ponte di Diodi Schottky](#ponte-di-diodi-schottky)
   - [Chip Step Down Buck MCP16331](#chip-step-down-buck-mcp16331)
   - [Condensatori PowerPack](#condensatori-powerpack)
-  - [Protezione Sovratensioni (Opzionale)](#protezione-sovratensioni-opzionale)
   - [Microchip ATmega128A](#microchip-atmega128a)
-  - [Lettura Segnale Digitale](#lettura-segnale-digitale)
-  - [Sistema ACK](#sistema-ack)
+  - [Dcc Reader e Sistema ACK](#Dcc-reader-e-sistema-ack)
+  - [Sistema BiDirezionale RCN217](#sistema-bidirezionale-RCN217)
   - [Porta di Programmazione ISP](#porta-di-programmazione-isp)
   - [Cuccette con Luci Diurne e Notturne *indipendenti*](#illuminazione-cuccette-con-luci-diurne-e-notturne)
   - [Ritirare](#illuminazione-ritirate)
@@ -74,11 +73,10 @@ Il manuale della scheda è [disponibile qui](https://github.com/TheFidax/TFX063/
 ------------
 
 ## FirmWare
-Il Firmware dedicato e' presente sotto la cartella [FirmWare](https://github.com/TheFidax/TFX063/tree/main/FirmWare), per poterlo caricare è consigliata la seguente [Shield](https://github.com/TheFidax/ProgrammerUpdaterShield).</br>
+Il Firmware dedicato e' presente sotto la cartella [FirmWare](https://github.com/TheFidax/TFX063/tree/main/FirmWare), per poterlo caricare è necessario un programmatore AVR ISP con adattatore all'interfaccia JST SH6'.</br>
 Le cifre finali del file .HEX identificano la versione del FirmWare.
 
-*NOTA*: Nella cartella e' presente anche un file chiamto *TFX063_TEST_AUX.hex* ; questo firmware attiva, a scheda alimentata, tutte le AUX.</br>
-**Serve Esclusivamente in fase di assemblaggio** per verificare che tutte le saldature siano state effettuate correttamente. **NON E' IL FIRMWARE PER IL FUNZIONAMENTO NORMALE.**
+*NOTA*: Nella cartella e' presente una sotto cartella contenente dei FirmWare di Debug.</br>
 
 **NOTA: Per conoscere la versione del Firmware presente a bordo e' sufficiente *Leggere la CV 7*.**
 
@@ -141,23 +139,6 @@ Come ulteriore protezione la scheda **può essere equipaggiata** con un sistema 
 
 ------------
 
-### Protezione Sovratensioni (Opzionale)
-<img src="https://github.com/TheFidax/TFX063/blob/main/Images/ltc4367.jpg" width="1280">
-
-Questa protezione **e' opzionale**: la sua presenza **e' segnalata dal Jumper J1 *aperto***. (**N.B.** Nella revisione HardWare 1.00 il Jumper J1 **e' assente**, e' stato introdotto dalla versione 1.01)</br>
-Le normative [NMRA](https://www.nmra.org/sites/default/files/standards/sandrp/pdf/s-9.1_electrical_standards_2020.pdf) e [NEM](https://morop.org/downloads/nem/fr/nem670_f.pdf) **impongono** che un decoder digitali *supportino* tensioni fino a 27 volt.</br>
-L'utilizzo di condensatori a 25 volt *non e' a norma*. **Tuttavia** le stesse normative impongono che la centrale fornisca tensione *massima* di 22 volt.</br>
-Pertanto in condizioni di *funzionamento corretto* i condensatori non riceveranno tensioni che possano danneggiarli.
-
-Gli stessi produttori commerciali *consigliano* condensatori da 25 volt:
-<img src="https://images.beneluxspoor.net/bnls/aansluitschema_lokpilot_v3.jpg" width="1280">
-
-**In caso di impiego della Scheda su sistemi a Corrente Alternata Analogica questa protezione E' OBBLIGATORIA!** 
-
-Il sistema di protezione si basa sul chip [LTC4367](https://www.analog.com/en/products/ltc4367.html) che **isola** mediante *MOSFET* i condensatori in caso di tensioni *superiori a 23,7 volt*; quando la tensione scende sotto questa soglia i condensatori torneranno alimentati.</br>
-
-------------
-
 ### Microchip ATmega128A
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/atmega.jpg" width="1280">
 
@@ -178,7 +159,7 @@ Il microcontrollore **non può** essere dotato di *bootloader*: non e' presente 
 
 ------------
 
-### Lettura Segnale Digitale
+### Dcc Reader e Sistema ACK
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/dcc.jpg" width="1280">
 
 Il segnale digitale e' letto mediante [Optoisolatore TLP2168](https://toshiba.semicon-storage.com/eu/semiconductor/product/optoelectronics/detail.TLP2168.html) che fornisce l'[isolamento galvanico](https://it.wikipedia.org/wiki/Isolamento_elettrico) del microcontrollore dalla tensione delle rotaie.</br> 
@@ -188,7 +169,7 @@ Questo sistema **e' compatibile con il DCC e con il Motorola**.
 
 ------------
 
-### Sistema ACK
+### Sistema Bidirezionale RCN217
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/ack.jpg" width="1280">
 
 La scheda e' dotata di sistema per fornire l'ACK nella **programmazione DCC mediante binario di programmazione**.
