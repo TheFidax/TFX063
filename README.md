@@ -13,7 +13,18 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 
 **Ultima Revisione FirmWare: 018**
 
-**Alcune Immagini Dimostrative:**
+## Indice
+* [Immagini Dimostrative](#immagini-dimostrative)
+* [Video Presentazione del Progetto](#video-presentazione-del-progetto)
+* [Manuale Scheda](#manuale-scheda)
+* [FirmWare](#firmware)
+* [HardWare](#hardware)
+* [Caratteristiche della Scheda](#caratteristiche-della-scheda)
+* [Contattami](#Contattami)
+
+------------
+
+## Immagini Dimostrative
 
 - Carrozza in condizioni luminose *Diurne* con tutti i LED bianchi accesi
 
@@ -36,17 +47,6 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/scheda_posizionata.jpg" width="1280"></br>
 
 ------------
-
-## Indice
-* [Video Presentazione del Progetto](#video-presentazione-del-progetto)
-* [Manuale Scheda](#manuale-scheda)
-* [FirmWare](#firmware)
-* [HardWare](#hardware)
-* [Caratteristiche della Scheda](#caratteristiche-della-scheda)
-* [Contattami](#Contattami)
-
-------------
-
 
 ## Video Presentazione del Progetto
 [![Video Presentazione](https://img.youtube.com/vi/yyA5b5wTD80/0.jpg)](http://www.youtube.com/watch?v=yyA5b5wTD80)
