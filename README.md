@@ -241,4 +241,4 @@ Per garantire la massima personalizzazione, e' presente anche **una porta SUSI**
 
 ## Contattami
 Per curiosita' o ulteriori informazioni puoi contattarmi al seguente indirizzo email: TheFidaxContacts@gmail.com</br>
-Oppure sulla pagina [Instagram](https://www.instagram.com/the_fidax_modellismo/): The_Fidax_Modellismo .</br> 
+Oppure sulla pagina Instagram: [The_Fidax_Modellismo](https://www.instagram.com/the_fidax_modellismo/).</br> 
