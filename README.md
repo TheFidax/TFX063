@@ -155,6 +155,7 @@ La scheda **e' compatibile con il DCC e con il Motorola**, programmazione **solo
 ### Sistema Bidirezionale RCN217
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/rcn217.jpg" width="1280">
 
+**NOTA**: *FUNZIONALITA' ANCORA NON DISPONIBILE*.</br>
 Dalla revisione HardWare 3.00 e' disponibile il sistema di comunicazione bidirezionale [Rcn217](http://normen.railcommunity.de/RCN-217.pdf), utile per la lettura delle CVs in modalita' POM e per conoscere la posizione del rotabile sul tracciato.</br>
 **NOTA**: E' necessario una centrale digitale che supporti il protocollo RCN217.</br>
 
@@ -179,6 +180,7 @@ Ogni LED e' indipendente e puo' essere pilotato dal microcontrollore in maniera 
 Le vetture Cuccette Comfort si dividono in due tipologie
  - Vettura con 9 Cuccette
  - Vettura con 8 Cuccette + Zona Cuccettista
+
 La scheda **e' compatibile con entrambe le versioni.**
 
 ------------
