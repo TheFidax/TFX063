@@ -226,7 +226,8 @@ Il connettore PluX fornisce il collegamento alle rotaie (per portare i comandi a
 **ATTENZIONE! Non è previsto un "motore fittizio" pertanto in caso di decoder "per locomotive" la *Lettura/Scrittura* delle CVs e' permessa soltanto tramite *PoM!***
 
 *N.B.* Data la presenza di una zona nascosta e' possibile inserire lì un decoder esterno non compatibile con l'altezza della carrozza, oppure con connettore diverso.</br>
-Esempio: Decoder [Maerklin mLD3](https://www.maerklin.de/en/products/details/article/60972/) con **connettore 21MTC** collegato mediante extender.
+Esempio: Decoder [Maerklin mLD3](https://www.maerklin.de/en/products/details/article/60972/) con **connettore 21MTC** collegato mediante adattatore:
+
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/decoder_extender.jpg" width="1280">
 
 ------------
@@ -239,4 +240,5 @@ Per garantire la massima personalizzazione, e' presente anche **una porta SUSI**
 ------------
 
 ## Contattami
-Per curiosita' o ulteriori informazioni puoi contattarmi al seguente indirizzo email:  	TheFidaxContacts@gmail.com
+Per curiosita' o ulteriori informazioni puoi contattarmi al seguente indirizzo email: TheFidaxContacts@gmail.com</br>
+Oppure sulla pagina [Instagram](https://www.instagram.com/the_fidax_modellismo/): The_Fidax_Modellismo .</br> 
