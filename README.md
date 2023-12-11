@@ -80,7 +80,7 @@ I **File Gerber**, il **BOM** e il file **Pick and Place** sono nel file **.Zip*
 ## Caratteristiche della Scheda
 Di seguito sono riportate le caratteristiche della scheda, poi spiegate in dettaglio nei vari paragrafi dedicati.
 - [Ponte di Diodi Schottky](#ponte-di-diodi-schottky)
-- [Filtro Pi](Filtro-Pi)  
+- [Filtro Pi](#Filtro-Pi)  
 - [Chip Step Down Buck MCP16331](#chip-step-down-buck-mcp16331)
 - [Condensatori PowerPack](#condensatori-powerpack)
 - [Microchip ATmega128A](#microchip-atmega128a)
@@ -110,9 +110,9 @@ Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di
 ------------
 
 ### Filtro Pi
-<img src="https://github.com/TheFidax/TFX063/blob/main/Images/mcp16331.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX063/blob/main/Images/pi_filter.jpg" width="1280">
 
-L'alimentazione a 5 volt e' fornita dal chip [Microchip MCP16331](https://www.microchip.com/wwwproducts/en/MCP16331), un regolatore di tensione di tipo [Step Down Buck](https://it.wikipedia.org/wiki/Convertitore_buck) in gradi di ricevere in ingresso tensioni fino a 50 volt e di fornire in uscita una tensione stabile a 5 volt con sviluppo di calore minimo.</br>
+Con alcune combinazioni di Alimentatori / Centrali Digitali
 
 ------------
 
