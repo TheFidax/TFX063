@@ -98,7 +98,7 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 ------------
 
 ### Ponte di Diodi Schottky
-<img src="https://github.com/TheFidax/TFX063/blob/main/Images/ss310.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX063/blob/main/Images/rectifier.jpg" width="1280">
 
 Il circuito di alimentazione e' realizzato meadiante 4 diodi Schottky in configurazione [Ponte di Graetz](https://it.wikipedia.org/wiki/Raddrizzatore#Ponte_di_Graetz).</br>
 Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di corrente in Conrente Continua a prescindere del sistema di alimentazione:
@@ -206,7 +206,7 @@ Le connessioni prevedere un *polo positivo* collegato alla linea a **5 volt** e 
 ------------
 
 ### Altoparlante
-<img src="https://github.com/TheFidax/TFX063/blob/main/Images/altoparlante.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX063/blob/main/Images/speaker.jpg" width="1280">
 
 La scheda ha lo spazio, e connessioni, per un altoparlante da 30 millimetri.</br>
 *Consigliato 8 Ohm e 2 Watt*.
