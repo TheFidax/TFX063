@@ -9,7 +9,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 
 **Codice Identificativo Progetto: TFX063**
 
-**Ultima Revisione HardWare: 3.00**
+**Ultima Revisione HardWare: 3.50a**
 
 **Ultima Revisione FirmWare: 018**
 
@@ -73,25 +73,26 @@ Il progetto di questa scheda e' disponibile qui: https://workspace.circuitmaker.
 **Viene rilasciato con la seguente Licenza**: https://creativecommons.org/licenses/by-nc-nd/4.0/ .</br>
 I **File Gerber**, il **BOM** e il file **Pick and Place** sono nel file **.Zip** disponibile sotto la cartella [HardWare](https://github.com/TheFidax/TFX063/tree/main/HardWare).</br> 
 
-**NOTA**: Lo spessore *consigliato* del PCB per questa scheda è di: **0,6mm**
+**NOTA**: Lo spessore *consigliato* del PCB per questa scheda è di: **0.8mm**
 
 ------------
 
 ## Caratteristiche della Scheda
 Di seguito sono riportate le caratteristiche della scheda, poi spiegate in dettaglio nei vari paragrafi dedicati.
-[Ponte di Diodi Schottky](#ponte-di-diodi-schottky)
-  - [Chip Step Down Buck MCP16331](#chip-step-down-buck-mcp16331)
-  - [Condensatori PowerPack](#condensatori-powerpack)
-  - [Microchip ATmega128A](#microchip-atmega128a)
-  - [Dcc Reader e Sistema ACK](#Dcc-reader-e-sistema-ack)
-  - [Sistema BiDirezionale RCN217](#sistema-bidirezionale-RCN217)
-  - [Porta di Programmazione ISP](#porta-di-programmazione-isp)
-  - [Cuccette con Luci Diurne e Notturne *indipendenti*](#illuminazione-cuccette-con-luci-diurne-e-notturne)
-  - [Ritirare](#illuminazione-ritirate)
-  - [Luci di Coda Rosse](#luci-di-coda-rosse)
-  - [Altoparlante](#altoparlante)
-  - [Decoder PluX](#interfaccia-plux)
-  - [Porta SUSI](#porta-susi)
+- [Ponte di Diodi Schottky](#ponte-di-diodi-schottky)
+- [Filtro Pi](#Pi_Filter)  
+- [Chip Step Down Buck MCP16331](#chip-step-down-buck-mcp16331)
+- [Condensatori PowerPack](#condensatori-powerpack)
+- [Microchip ATmega128A](#microchip-atmega128a)
+- [Dcc Reader e Sistema ACK](#Dcc-reader-e-sistema-ack)
+- [Sistema BiDirezionale RCN217](#sistema-bidirezionale-RCN217)
+- [Porta di Programmazione ISP](#porta-di-programmazione-isp)
+- [Cuccette con Luci Diurne e Notturne *indipendenti*](#illuminazione-cuccette-con-luci-diurne-e-notturne)
+- [Ritirare](#illuminazione-ritirate)
+- [Luci di Coda Rosse](#luci-di-coda-rosse)
+- [Altoparlante](#altoparlante)
+- [Decoder PluX](#interfaccia-plux)
+- [Porta SUSI](#porta-susi)
 - MINIMUM CLEARANCE: 6mil
 
 ------------
