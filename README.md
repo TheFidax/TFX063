@@ -112,7 +112,7 @@ Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di
 ### Filtro Pi
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/pi_filter.jpg" width="1280">
 
-Con alcune combinazioni di Alimentatori / Centrali Digitali
+Quando e' attivo il *RailCom cutout* in aggiunta a particolari combinazioni di Alimentatori / Centrali Digitali e' possibile che il regolatore di tensione generi un ronzio anomalo, per prevenire un suo funzionamento non corretto dalla sua revisione Hardware 3.20a e' presente un [Filtro Pi](https://electronicsreference.com/analog/pi_filter/) di supporto prima del chip MCP16331.
 
 ------------
 
