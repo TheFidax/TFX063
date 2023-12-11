@@ -86,9 +86,9 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 - [Filtro Pi](#Filtro-Pi)  
 - [Chip Step Down Buck MCP16331](#chip-step-down-buck-mcp16331)
 - [Condensatori PowerPack](#condensatori-powerpack)
-- [Microchip ATmega128A](#microchip-atmega128a)
 - [Dcc Reader e Sistema ACK](#Dcc-reader-e-sistema-ack)
 - [Sistema BiDirezionale RCN217](#sistema-bidirezionale-RCN217)
+- [Microchip ATmega128A](#microchip-atmega128a)
 - [Porta di Programmazione ISP](#porta-di-programmazione-isp)
 - [Cuccette con Luci Diurne e Notturne *indipendenti*](#illuminazione-cuccette-con-luci-diurne-e-notturne)
 - [Ritirate](#illuminazione-ritirate)
@@ -138,6 +138,23 @@ Compatibilmente con lo spazio e' possibile aggiungere altri condensatori, *e' ne
 
 ------------
 
+### Dcc Reader e Sistema ACK
+<img src="https://github.com/TheFidax/TFX063/blob/main/Images/dcc_ack.jpg" width="1280">
+
+Il segnale digitale e' letto mediante resistore per la protezione del pin di input, l'impulso ACK, necessario per il binario di programmazione, viene fornito mediante resistore da 120Ω.</br>
+La scheda **e' compatibile con il DCC e con il Motorola**, programmazione **solo** sotto DCC.
+
+------------
+
+### Sistema Bidirezionale RCN217
+<img src="https://github.com/TheFidax/TFX063/blob/main/Images/rcn217.jpg" width="1280">
+
+**NOTA: FUNZIONALITA' ANCORA NON IMPLEMENTATA LATO FIRMWARE.**</br>
+Dalla revisione HardWare 3.00 e' disponibile il sistema di comunicazione bidirezionale [Rcn217](http://normen.railcommunity.de/RCN-217.pdf), utile per la lettura delle CVs in modalita' POM e per conoscere la posizione del rotabile sul tracciato.</br>
+**NOTA**: E' necessario una centrale digitale che supporti il protocollo RCN217.</br>
+
+------------
+
 ### Microchip ATmega128A
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/atmega.jpg" width="1280">
 
@@ -155,23 +172,6 @@ I valori dei **FUSE** sono i seguenti:
 - LOCKBITS: 0xCF
 
 Il microcontrollore **non può** essere dotato di *bootloader*: non e' presente una porta Seriale.
-
-------------
-
-### Dcc Reader e Sistema ACK
-<img src="https://github.com/TheFidax/TFX063/blob/main/Images/dcc_ack.jpg" width="1280">
-
-Il segnale digitale e' letto mediante resistore per la protezione del pin di input, l'impulso ACK, necessario per il binario di programmazione, viene fornito mediante resistore da 120Ω.</br>
-La scheda **e' compatibile con il DCC e con il Motorola**, programmazione **solo** sotto DCC.
-
-------------
-
-### Sistema Bidirezionale RCN217
-<img src="https://github.com/TheFidax/TFX063/blob/main/Images/rcn217.jpg" width="1280">
-
-**NOTA: FUNZIONALITA' ANCORA NON IMPLEMENTATA LATO FIRMWARE.**</br>
-Dalla revisione HardWare 3.00 e' disponibile il sistema di comunicazione bidirezionale [Rcn217](http://normen.railcommunity.de/RCN-217.pdf), utile per la lettura delle CVs in modalita' POM e per conoscere la posizione del rotabile sul tracciato.</br>
-**NOTA**: E' necessario una centrale digitale che supporti il protocollo RCN217.</br>
 
 ------------
 
