@@ -208,7 +208,7 @@ Le connessioni prevedere un *polo positivo* collegato alla linea a **5 volt** e 
 ### Altoparlante
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/speaker.jpg" width="1280">
 
-La scheda ha lo spazio, e connessioni, per un altoparlante da 30 millimetri.</br>
+La scheda ha lo spazio, e connessioni, per un altoparlante da *rotondo* da 20 millimetri.</br>
 *Consigliato 8 Ohm e 2 Watt*.
 
 ------------
@@ -229,7 +229,7 @@ Il connettore PluX fornisce il collegamento alle rotaie (per portare i comandi a
 *N.B.* Data la presenza di una zona nascosta e' possibile inserire lì un decoder esterno non compatibile con l'altezza della carrozza, oppure con connettore diverso.</br>
 Esempio: Decoder [Maerklin mLD3](https://www.maerklin.de/en/products/details/article/60972/) con **connettore 21MTC** collegato mediante adattatore:
 
-<img src="https://github.com/TheFidax/TFX063/blob/main/Images/decoder_extender.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX063/blob/main/Images/external_decoder.jpg" width="1280">
 
 ------------
 
