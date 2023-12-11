@@ -1,9 +1,9 @@
-# Scheda di Illuminazione Digitale per vetture [ACME](http://acmetreni.it/index.php/it/) [UicX Cuccette Comfort](https://scalaenne.wordpress.com/2013/06/08/carrozze-uic-x-parte-sesta-cuccette/) in Scala H0
+# Scheda di Illuminazione Digitale per vetture [ACME](http://acmetreni.it/index.php/it/) [UicX Cuccette Comfort 1995R / 1998R](https://scalaenne.wordpress.com/2013/06/08/carrozze-uic-x-parte-sesta-cuccette/) in Scala H0
 Questa scheda e' pensata per illuminare in maniera digitale le vetture ACME UicX *Cuccette Comfort 1995R e 1998R*, in scala H0.</br>
 E' stata progettata espressamente sugli ingombri stutturali della carrozza per massimizzare il realismo luminoso garantendo **tutte** le zone illuminate in maniera indipendente: 
 - Corridoio 
-- *Luci Diurne Cuccette* (9 Cuccette Oppure 8 più compartimento Cuccettista)
-- **Luci Notturne Blu Cuccette** (9 Cuccette Oppure 8 più compartimento Cuccettista)
+- *Luci Diurne Cuccette* (9 Cuccette *Oppure* 8 Cuccette + compartimento Cuccettista)
+- **Luci Notturne Blu Cuccette** (9 Cuccette *Oppure* 8 Cuccette + compartimento Cuccettista)
 - Ritirate (*solo* vetture 1995R)
 - Predisposizione per le *Luci di Coda Rosse* 
 
@@ -80,7 +80,7 @@ I **File Gerber**, il **BOM** e il file **Pick and Place** sono nel file **.Zip*
 ## Caratteristiche della Scheda
 Di seguito sono riportate le caratteristiche della scheda, poi spiegate in dettaglio nei vari paragrafi dedicati.
 - [Ponte di Diodi Schottky](#ponte-di-diodi-schottky)
-- [Filtro Pi](#Pi_Filter)  
+- [Filtro Pi](Filtro-Pi)  
 - [Chip Step Down Buck MCP16331](#chip-step-down-buck-mcp16331)
 - [Condensatori PowerPack](#condensatori-powerpack)
 - [Microchip ATmega128A](#microchip-atmega128a)
@@ -88,7 +88,7 @@ Di seguito sono riportate le caratteristiche della scheda, poi spiegate in detta
 - [Sistema BiDirezionale RCN217](#sistema-bidirezionale-RCN217)
 - [Porta di Programmazione ISP](#porta-di-programmazione-isp)
 - [Cuccette con Luci Diurne e Notturne *indipendenti*](#illuminazione-cuccette-con-luci-diurne-e-notturne)
-- [Ritirare](#illuminazione-ritirate)
+- [Ritirate](#illuminazione-ritirate)
 - [Luci di Coda Rosse](#luci-di-coda-rosse)
 - [Altoparlante](#altoparlante)
 - [Decoder PluX](#interfaccia-plux)
@@ -106,6 +106,13 @@ Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di
 - Corrente PWM (raddrizza l'onda quadra fornendo una tensione simil continua)
 - Corrente Alternata Analogica (raddrizza l'onda sinusoidale fornendo una tensione simil continua)
 - Digitale (raddrizza l'onda quadra fornendo una tensione simil continua)
+
+------------
+
+### Filtro Pi
+<img src="https://github.com/TheFidax/TFX063/blob/main/Images/mcp16331.jpg" width="1280">
+
+L'alimentazione a 5 volt e' fornita dal chip [Microchip MCP16331](https://www.microchip.com/wwwproducts/en/MCP16331), un regolatore di tensione di tipo [Step Down Buck](https://it.wikipedia.org/wiki/Convertitore_buck) in gradi di ricevere in ingresso tensioni fino a 50 volt e di fornire in uscita una tensione stabile a 5 volt con sviluppo di calore minimo.</br>
 
 ------------
 
