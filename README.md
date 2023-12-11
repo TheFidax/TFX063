@@ -129,6 +129,7 @@ L'alimentazione a 5 volt e' fornita dal chip [Microchip MCP16331](https://www.mi
 Per sopperire a problemi di captazione di corrente e' previsto un sistema *powerpack* formato da 4 condensatori al Tantalio da 100uF con tensione **massima** di 35 volt.</br>
 I condensatori sono separati dal circuito di alimentazione da un Diodo ed un Resistore che rappresentano *il sistema di ricarica lenta*, come protezione dalle sovratensioni e' presente un diodo Zener da 27v.</br>
 Compatibilmente con lo spazio e' possibile aggiungere altri condensatori, *e' necessario che siano anche essi da 35v* per permettere il corretto funzionamento del sistema di protezione, tramite le piazzole ad essi dedicate.</br>
+
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/external_powerpack.jpg" width="1280">
 
 ------------
