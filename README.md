@@ -112,7 +112,7 @@ Tale configurazione permette di *raddrizzare* la tensione captata dalle prese di
 ### Filtro Pi
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/pi_filter.jpg" width="1280">
 
-Quando e' attivo il *RailCom cutout* in aggiunta a particolari combinazioni di Alimentatori / Centrali Digitali e' possibile che il regolatore di tensione generi un ronzio anomalo, per prevenire un suo funzionamento non corretto dalla sua revisione Hardware 3.20a e' presente un [Filtro Pi](https://electronicsreference.com/analog/pi_filter/) di supporto prima del chip MCP16331.
+Quando e' attivo il *RailCom cutout* in aggiunta a particolari combinazioni di Alimentatori / Centrali Digitali e' possibile che il regolatore di tensione generi un ronzio anomalo, per prevenire un suo funzionamento non corretto dalla revisione Hardware 3.20a e' presente un [Filtro Pi](https://electronicsreference.com/analog/pi_filter/) di supporto prima del chip MCP16331.
 
 ------------
 
@@ -129,6 +129,7 @@ L'alimentazione a 5 volt e' fornita dal chip [Microchip MCP16331](https://www.mi
 Per sopperire a problemi di captazione di corrente e' previsto un sistema *powerpack* formato da 4 condensatori al Tantalio da 100uF con tensione **massima** di 35 volt.</br>
 I condensatori sono separati dal circuito di alimentazione da un Diodo ed un Resistore che rappresentano *il sistema di ricarica lenta*, come protezione dalle sovratensioni e' presente un diodo Zener da 27v.</br>
 Compatibilmente con lo spazio e' possibile aggiungere altri condensatori, *e' necessario che siano anche essi da 35v* per permettere il corretto funzionamento del sistema di protezione, tramite le piazzole ad essi dedicate.</br>
+<img src="https://github.com/TheFidax/TFX063/blob/main/Images/external_powerpack.jpg" width="1280">
 
 ------------
 
