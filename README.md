@@ -11,7 +11,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 
 **Ultima Revisione HardWare: 3.60c**
 
-**Ultima Revisione FirmWare: 018**
+**Ultima Revisione FirmWare: 019**
 
 *NOTA:* Dalla revisione Hardware 3.50a e' possibile conoscere il *Seriale Progressivo* della scheda tramite lo spazio ad esso dedicato:
 <img src="https://github.com/TheFidax/TFX063/blob/main/Images/code_serial.jpg" width="1280">
