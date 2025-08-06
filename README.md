@@ -13,8 +13,8 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 
 **Ultima Revisione FirmWare: 019**
 
-*NOTA:* Dalla revisione Hardware 3.50a e' possibile conoscere il *Seriale Progressivo* della scheda tramite lo spazio ad esso dedicato:
-<img src="https://github.com/TheFidax/TFX063/blob/main/Images/code_serial.jpg" width="1280">
+*NOTA:* Quando presente e' possibile, tramite QR Code, conoscere il *Seriale Progressivo* della scheda e la revisione Hardware della stessa:
+<img src="https://github.com/TheFidax/TFX064/blob/main/Images/QR_Code.jpg" width="1280">
 
 ## Indice
 * [Immagini Dimostrative](#immagini-dimostrative)
@@ -75,8 +75,6 @@ Le cifre finali del file .HEX identificano la versione del FirmWare.
 Il progetto di questa scheda e' disponibile qui: https://workspace.circuitmaker.com/Projects/Details/luca-fidanza/TFX063 .</br>
 **Viene rilasciato con la seguente Licenza**: https://creativecommons.org/licenses/by-nc-nd/4.0/ .</br>
 I **File Gerber**, il **BOM** e il file **Pick and Place** sono nel file **.Zip** disponibile sotto la cartella [HardWare](https://github.com/TheFidax/TFX063/tree/main/HardWare).</br> 
-
-**NOTA**: Lo spessore *consigliato* del PCB per questa scheda è di: **0.8mm**
 
 ------------
 
