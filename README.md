@@ -14,7 +14,7 @@ E' stata progettata espressamente sugli ingombri stutturali della carrozza per m
 **Ultima Revisione FirmWare: 019**
 
 *NOTA:* Quando presente e' possibile, tramite QR Code, conoscere il *Seriale Progressivo* della scheda e la revisione Hardware della stessa:
-<img src="https://github.com/TheFidax/TFX064/blob/main/Images/QR_Code.jpg" width="1280">
+<img src="https://github.com/TheFidax/TFX063/blob/main/Images/QR_Code.jpg" width="1280">
 
 ## Indice
 * [Immagini Dimostrative](#immagini-dimostrative)
